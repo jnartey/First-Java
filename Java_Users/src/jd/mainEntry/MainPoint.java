@@ -3,7 +3,7 @@ package jd.mainEntry;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-import jd.DAO.UserDAO;
+import jd.dao.UserDAO;
 import jd.model.User;
 
 public class MainPoint {

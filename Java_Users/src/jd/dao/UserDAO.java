@@ -1,4 +1,4 @@
-package jd.DAO;
+package jd.dao;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -21,7 +21,7 @@ public class UserDAO {
 			conn= OracleConnection.getConnection();
 			stmt = conn.prepareStatement(OracleQueries.GETUSERBYEMAIL);
 			stmt.setString(1, email);
-			// execute query is only for reading data from the database 
+			
 			result = stmt.executeQuery();
 				if(result!= null && result.next()) {
 					if(pass.equals(result.getString(4)))
