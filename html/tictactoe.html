@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+	<style>
+		body {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+
+		.wrapper {
+			position: relative;
+			width:300px;
+			height:300px;
+			margin: 0 auto;
+			box-sizing: border-box;
+		}
+
+		.t-box {
+			position:relative;
+			float: left;
+			width:100px;
+			height:100px;
+			border: 1px solid #222222;
+			margin-left: -1px;
+			margin-top:-1px;
+			box-sizing: border-box;
+		}
+
+		.circle {
+			display: inline-block;
+			position: absolute;
+ 			top: 50%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+			width:50px;
+			height: 50px;
+			border:3px solid black;
+			border-radius: 50%;
+		}
+
+		.cross {
+			position: absolute;
+ 			top: 50%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+  			font-size: 55px;
+  			font-weight: 300;
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Tic Tac Toe</h1>
+	<div class="wrapper">
+		<div class="t-box">
+			<span class="circle"></span>
+		</div>
+		<div class="t-box">
+			<span class="cross">X</span>
+		</div>
+		<div class="t-box">
+			<span class="circle"></span>
+		</div>
+		<div class="t-box">
+			<span class="cross">X</span>
+		</div>
+		<div class="t-box">
+			<span class="cross">X</span>
+		</div>
+		<div class="t-box">
+			<span class="circle"></span>
+		</div>
+		<div class="t-box">
+			<span class="cross">X</span>
+		</div>
+		<div class="t-box">
+			<span class="cross">X</span>
+		</div>
+		<div class="t-box">
+			<span class="circle"></span>
+		</div>
+	</div>
+
+	<!-- <meter min="200" max="500" value="500">350 degrees</meter> -->
+	
+</body>
+</html>
